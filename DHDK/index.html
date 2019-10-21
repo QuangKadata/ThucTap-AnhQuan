@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Trường Đại Học Văn Hiến</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link href="css/blast.min.css" rel="stylesheet" />
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/blast.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-post.css" rel="stylesheet">
+<script>
+
+</script>
+</head>
+<style>
+  p{ line-height: 1em; }
+h1, h2, h3, h4{
+  color: rgb(0, 4, 255);
+font-weight: normal;
+line-height: 1.1em;
+margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+color: rgb(102, 101, 101);
+text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: underline; }
+
+
+body{
+  font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+#page{ margin: 20px; }
+
+#logo{
+width: 35%;
+margin-top: 5px;
+font-family: georgia;
+display: inline-block;
+
+}
+#logoLink{
+color: orange;
+}
+#nav{
+  background: aqua;
+  width: 100%;
+display: inline-block;
+text-align: right;
+float: right;
+}
+#nav ul{}
+  #nav ul li{
+    display: inline-block;
+    height: 62px;
+  }
+    #nav ul li a{
+      padding: 20px;
+      background: rgb(13, 186, 255);
+      color: white;
+    }
+    #nav ul li a:hover{
+      background-color: #c1c7c7;
+      box-shadow: 0px 1px 1px #666;
+    }
+    #nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+margin: 30px 0;
+background: white;
+padding: 20px;
+clear: both;
+}
+#footer{
+margin-bottom: 10px;
+padding: 20px 350px;
+border: 2px solid orange;
+
+}
+#footer p{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 80%;
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 30px;
+}
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+  </style>
+
+<header>
+  <!-- ĐỔI MÀU-->
+<div class="themes">
+    <div class="colors">
+      <h3>Đổi Màu Nền</h3>
+      <ul class="theme-colors">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <br>
+      <h3>Đổi Màu Chữ</h3>
+      <ul class="logo-colors">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <p class="themes-btn"><i class="fa fa-gear fa-2px fa-spin"></i></p>
+  </div>
+  <!--ĐỔI MÀU -->
+  <div class="blast-box">
+    <div class="blast-icon"><i class="fa fa-gear fa-2px fa-spin"></i></div>
+    <div class="blast-frame">
+      <p>Đổi Màu Theme</p>
+      <div class="blast-colors">
+        <div class="blast-color">#3D261A</div>
+        <div class="blast-color">#B6B254</div>
+        <div class="blast-color">#6B2E56</div>
+        <div class="blast-color">#48A871</div>
+      </div>
+      <p class="blast-custom-colors">Tùy Chỉnh Màu</p>
+      <input type="color" name="blastCustomColor" value="#cf2626" placeholder="">
+    </div>
+  </div>
+</header>
+
+<body >
+
+  <!-- Navigation -->
+  <nav id="nav" data-blast="bgColor" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="float: left;">
+        <img src="images/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" style="float: right;color: rgb(255, 255, 255);">
+          <li data-blast="bgColor" class="nav-item active">
+            <a  class="nav-link" href="#">Trang Chủ
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" href="#">Giới Thiệu</a>
+          </li>
+          <li class="nav-item active">
+            <a  class="nav-link" href="">Xem Điểm
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li  class="nav-item">
+            <a class="nav-link" href="#">Liên Hệ</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <nav class="col-sm-12" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li data-blast="color" class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+        <li data-blast="color" class="breadcrumb-item"><a href="#">Tin Tức</a></li>
+        <li data-blast="color" class="breadcrumb-item active" aria-current="page">Tuyển Sinh Đại Học</li>
+      </ol>
+    </nav>
+    <br>
+  <!-- Page Content -->
+    <div class="container" data-blast="borderColor">
+
+      <div class="row" data-blast="color">
+        
+
+        <!-- Post Content Column -->
+        <div  class="col-lg-8">
+          
+
+          <!-- Title -->
+          <h2  class="mt-4">Tuyển Sinh Trường Đại Học</h2>
+
+          <!-- Author -->
+          <p class="lead" data-blast="color">
+            <a href="#" data-blast="color">Nộp Đơn Ứng Tuyển</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Đăng vào 3 tháng 10, 2019 lúc 12:00 PM</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+          <img class="img-fluid rounded" src="images/2.png" alt="">
+
+          <hr>
+
+          <!-- Post Content -->
+          <p data-blast="color" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error
+            quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum
+            minus inventore?</p>
+
+          <p data-blast="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste
+            ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus,
+            voluptatibus.</p>
+
+          <p data-blast="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde
+            eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim,
+            iure!</p>
+
+          <blockquote class="blockquote">
+            <p data-blast="color" class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">được đăng bởi
+              <cite title="Source Title">QUANG</cite>
+            </footer>
+          </blockquote>
+
+          <p data-blast="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat
+            totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+
+          <p data-blast="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam
+            tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui,
+            necessitatibus, est!</p>
+
+          <hr>
+
+          <!-- Comments Form -->
+          <div id="content" class="card my-4" data-blast="borderColor">
+            <h5 class="card-header text-center">Nhập Thông Tin Tuyển Sinh</h5>
+            <div class="card-body">
+                <form id="form_contact1" name="form_contact1" method="post">
+                    <div class="clearfix">
+                 <p class="col-md-6">
+                    <span class="form-control-wrap fc-name">
+                    <input type="text" name="contactname" value="" class="form-control" placeholder="Tên *">
+                    </span>
+                             </p>
+                 <p class="col-md-6">
+                    <span class="form-control-wrap fc-sdt">
+                    <input type="text" name="contactsdt" value="" class="form-control" placeholder="Số điện thoại">
+                    </span>
+                             </p>
+              </div>
+              <div class="clearfix">
+                 <p class="col-md-6">
+                    <span class="form-control-wrap fc-email">
+                    <input type="email" name="contactemail" value="" class="form-control" placeholder="Email *">
+                    </span>
+                             </p>
+                 <p class="col-md-6">
+                    <span class="form-control-wrap fc-ngaysinh">
+                    <input type="date"  name="contactngaysinh"  class="form-control"  value='' >
+                    </span>
+                             </p>
+              </div>
+              <div class="clearfix">
+                 <p class="col-md-6">
+                    <span class="form-control-wrap fc-subject">
+                    <input type="text" name="contactsubject" value="" class="form-control" placeholder="Tiêu đề *">
+                    </span>
+                             </p>
+                 <p class="col-md-6">
+                    
+                             </p>
+              </div>
+              <div class="clearfix">
+              <p class="col-md-12">
+                 <span class="form-control-wrap fc-message">
+                 <textarea name="message" cols="40" rows="5" class="form-control fc-textarea" placeholder="Nội dung *"></textarea>
+                 </span>
+                    </p>
+             </div>
+             <div class="clearfix">
+              <p class="col-md-3 col-sm-4 col-xs-4 pull-right send-button">
+                  <button data-blast="bgColor" class="btn btn-success btn-block" >Nộp Đơn</button>
+             </div>
+              
+           </form>
+            </div>
+          </div>
+
+          <!-- Single Comment -->
+          <div class="media mb-4">
+            <img class="mr-3" src="images/icon.png" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0">Mãu Tin Tức</h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat autem ipsum! Adipisci iure eos
+              quidem enim, eligendi corrupti ipsum!
+            </div>
+          </div>
+          <br class="my-4">
+          <!-- Comment with nested comments -->
+          <div class="media mb-4">
+            <img class="d-flex mr-3 rounded-circle" src="images/users1.png" alt="">
+            <div class="media-body">
+              <h5 data-blast="color" class="mt-0">Người Dùng Số 1</h5>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium non dolor cum debitis? Consequuntur
+              voluptatibus illum doloribus reprehenderit? Iste, aut.
+              <div class="media mt-4">
+                <img class="d-flex mr-3 rounded-circle" src="images/users2.png" alt="">
+                <div class="media-body">
+                  <h5 data-blast="color" class="mt-0">Người Dùng Số 2</h5>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium non dolor cum debitis?
+                  Consequuntur voluptatibus illum doloribus reprehenderit? Iste, aut.
+                </div>
+              </div>
+
+              <div class="media mt-4">
+                <img class="d-flex mr-3 rounded-circle" src="images/users3.png" alt="">
+                <div class="media-body">
+                  <h5 data-blast="color" class="mt-0">Người Dùng Số 3</h5>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium non dolor cum debitis?
+                  Consequuntur voluptatibus illum doloribus reprehenderit? Iste, aut.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4" >
+
+          <!-- Search Widget -->
+          <div class="card my-4" data-blast="borderColor">
+            <h5 class="card-header">Tìm Kiếm</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input data-blast="borderColor" type="text" class="form-control" placeholder="nhập gì đó........">
+                <span class="input-group-btn">
+                  <button data-blast="bgColor" class="btn btn-secondary" type="button">Tìm Kiếm</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card my-4" data-blast="borderColor">
+            <article class="card-body">
+              <a href="" class="float-right btn btn-outline-info">Đăng Ký</a>
+              <h4 class="card-title mb-4 mt-1  text-center" style="font-weight: bold">Đăng Nhập Hệ Thống</h4>
+              <form>
+                <div class="form-group">
+                  <label>Mã Số Sinh Viên :</label>
+                  <input data-blast="borderColor" name="" class="form-control" placeholder="0 - > 9" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                  <a class="float-right" href="#">quên mật khẩu?</a>
+                  <label>Mật Khẩu :</label>
+                  <input data-blast="borderColor" class="form-control" placeholder="******" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group" style="float: right;">
+                  <div class="checkbox">
+                    <label> <input type="checkbox"> lưu mật khẩu </label>
+                  </div> <!-- checkbox .// -->
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                  <button data-blast="bgColor" type="submit" class="btn btn-info btn-block"> ĐĂNG NHẬP </button>
+                </div> <!-- form-group// -->
+              </form>
+            </article>
+          </div> <!-- card.// -->
+          <!-- Categories Widget -->
+          <div class="card my-4" data-blast="borderColor">
+            <h5 class="card-header text-center">THÔNG TIN SINH VIÊN</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                    <li>
+                      <a href="#">Thông Tin Sinh Viên</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Side Widget -->
+          <div class="card my-4" data-blast="borderColor">
+            <h5 class="card-header  text-center" >Giới Thiệu Về Trường</h5>
+            
+            <div class="card-body">
+              
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus sit qui corrupti quaerat cumque
+              tempore mollitia sapiente, natus incidunt esse eius accusamus, dolor eaque recusandae illum pariatur sunt,
+              vitae quidem quos eum enim error. 
+              Veniam autem eveniet ipsa praesentium amet rerum? Architecto, aliquid?
+              Quidem qui animi corrupti iure similique?
+            </div>
+            <div class="card-footer">
+                <img class="d-flex mr-3 rounded-circle" src="images/users1.png" alt="">
+            </div>
+          </div>
+
+          <div class="card my-4" data-blast="borderColor">
+            <h5 class="card-header  text-center" >Giới Thiệu Về Trường</h5>
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus sit qui corrupti quaerat cumque
+              tempore mollitia sapiente, natus incidunt esse eius accusamus, dolor eaque recusandae illum pariatur sunt,
+              vitae quidem quos eum enim error. Veniam autem eveniet ipsa praesentium amet rerum? Architecto, aliquid?
+              Quidem qui animi corrupti iure similique?
+            </div>
+            <div class="card-footer">
+                <img class="d-flex mr-3 rounded-circle" src="images/users3.png" alt="">
+            </div>
+          </div>
+
+          <div class="card my-3" data-blast="borderColor">
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-2" src="images/icon.png" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">GIÁO VIÊN SỐ 1 2 3</h5>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, praesentium aut! Adipisci distinctio doloremque nulla minima possimus, exercitationem vero debitis!                </div>
+              </li>
+              <li class="media my-4">
+                <img class="mr-2" src="images/icon.png" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">GIÁO VIÊN SỐ 1 2 3</h5>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, praesentium aut! Adipisci distinctio doloremque nulla minima possimus, exercitationem vero debitis!                </div>
+              </li>
+              <li class="media">
+                <img class="mr-2" src="images/icon.png" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">GIÁO VIÊN SỐ 1 2 3</h5>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, praesentium aut! Adipisci distinctio doloremque nulla minima possimus, exercitationem vero debitis!                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer data-blast="bgColor" class="py-5" style="background: black">
+      <div class="container">
+        <p class="m-0 text-center text-white">Thiết Kế Bởi Vinh Quang</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <script>
+      $(document).ready(function () {
+        $('ul.theme-colors li').click(function () {
+          $('body').css('background', $(this).css('color'));
+        });
+        $('ul.logo-colors li').click(function () {
+          var theme = $(this).css('background-color');
+          $('#leafs div').css('background', theme);
+          $('h1,h2 span ,h2,button,nav,h5,span button,li a,div a,div p a,div textarea,div ul li a,div p,footer div p').css('color', theme);
+        });
+        $('p.themes-btn').click(function () {
+          $('.colors').toggleClass('active');
+        });
+      });
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

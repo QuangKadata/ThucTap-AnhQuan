@@ -1,0 +1,215 @@
+/*============================================
+Default CSS background&colors
+==============================================*/
+/*== Borders ==*/
+.border-top {
+    border-top-color: #c0392b;
+}
+.border-bottom {
+    border-bottom-color: #c0392b;
+}
+.border-right {
+    border-right-color: #c0392b;
+}
+.border-left {
+    border-left-color: #c0392b;
+}
+.border-2 {
+    border-color: #c0392b;
+}
+
+/*== Default color ==*/
+.color {color: #c0392b}
+.white-color {color: #fff;}
+
+/*== no background ==*/
+.no-background {background: none;}
+
+/*== Default background ==*/
+.background {background: #c0392b}
+.white-background {background: #fff;}
+
+
+
+
+
+/*===========================================
+My customizing CSS colors and Backgrounds in style.css
+=============================================*/
+
+/*== ADD classes in jquery for sticky NAV ==*/
+.when-addclass-inverse {
+    background: #fff !important;
+}
+
+/*===============================================================================================
+MENUBAR SECTION To get the menu code on HTML file just find ***" MENUBAR SECTION "***
+=================================================================================================*/
+.navbar-inverse {
+    background: rgba(255,255,255,0.75);
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #202020;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #c0392b;
+    background: none;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #c0392b;
+}
+.navbar-toggle {
+    background-color: transparent;
+}
+.navbar-toggle i {
+    color: #c0392b;
+}
+
+/*===============================================================================================
+HOMEPAGE SECTION To get the homePage code on HTML file just find ***" HOMEPAGE SECTION "***
+=================================================================================================*/
+.hederBtns a {
+    border-color: #fff;
+}
+.hederBtns a:hover {
+    color: #fff;
+    background: none;
+}
+
+/*===============================================================================================
+SERVICE SECTION To get the service section code on HTML file just find ***" SERVICE SECTION "***
+=================================================================================================*/
+.myService {
+    background: #ffffff;
+}
+
+/*===============================================================================================
+STATUS SECTION To get the status section code on HTML file just find ***" STATUS SECTION "***
+=================================================================================================*/
+.statusSec {
+    background-image: url(../../images/slider_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.statusSec:before {
+    background: rgba(0,0,0,0.75);
+}
+
+/*=============================================================================================================
+SCREENSHOOT SECTION To get the screenshoot section code on HTML file just find ***" SCREENSHOOT SECTION "***
+===============================================================================================================*/
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    background: #3e3e3e;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+      background: #4DC7A0;
+      color: #FFF;
+}
+.owl-theme .owl-dots .owl-dot span {
+      background: #3e3e3e;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #c0392b; 
+}
+
+/*===============================================================================================
+PACKAGE SECTION To get the package section code on HTML file just find ***" PACKAGE SECTION "***
+=================================================================================================*/
+.myPackage {
+    background: #e3e3e3;
+}
+.packageSignUp a {
+    border-color: #c0392b;
+}
+.packageSignUp a:hover {
+    background: none;
+    color: #c0392b;
+}
+.packageTag {
+    color: #fff;
+    border-color: #c0392b;
+}
+
+/*========================================================================================================================
+MEMBERS PROFILE SECTION To get the member porfile section code on HTML file just find ***" MEMBERS PROFILE SECTION "***
+==========================================================================================================================*/
+.MemberProfile > .memberDetails {
+    background: #e3e3e3;
+}
+.membersSocialMedia a i {
+    color: #c0392b;
+}
+
+/*====================================================================================================================
+TESTIMONIAL SECTION To get the testimonial section code on HTML file just find ***" TESTIMONIAL SECTION "***
+======================================================================================================================*/
+.testimonialSec {
+    background-image: url(../../images/slider_03.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonialSec:after {
+    background: rgba(0,0,0,0.75);
+}
+.testimonialSocialMedia ul li a i {
+    color: #fff;
+}
+.owl-hash-active img {
+    border-color: #c0392b;
+}
+.owl-hash-active img:before {
+    background: rgba(0,0,0,0.25);
+}
+
+.socialMediaSec ul li {
+    border-color: #fff;
+}
+.socialMediaSec ul li a {
+    color: #fff;
+}
+
+/*===================================================================================================================
+SOCIALMEDIA SECTION To get the socialmedia section code on HTML file just find ***" SOCIALMEDIA SECTION "***
+=====================================================================================================================*/
+.facebook-background {background: #3B5998}
+.twitter-background {background: #1DA1F2}
+.google-plus-background {background: #DB4437}
+.youtube-background {background: #E62117}
+.linkedin-background {background: #0077B5}
+.github-background {background: #202020}
+
+/*=========================================================================================================================
+CONTACT FOMR SECTION To get the contact section code on HTML file just find ***" CONTACT FORM SECTION "***
+===========================================================================================================================*/
+.contactField,
+.messageField {
+    border-bottom-color: #c0392b;
+}
+.contactForm button:hover {
+    background: none;
+    color: #c0392b;
+}
+
+/*=========================================================================================================
+COPYRIGHT SECTION To get the copyright section code on HTML file just find ***" COPYRIGHT SECTION "***
+===========================================================================================================*/
+.copyright p a:hover {
+    color: #fff;
+}
+
+/*=========================================================================================================
+GO TO TOP SECTION To get the copyright section code on HTML file just find ***" GO TO TOP SECTION "***
+===========================================================================================================*/
+.go-to-top {
+    background: #c0392b;
+}
+.go-to-top i {
+    color: #fff;
+}

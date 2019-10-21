@@ -1,0 +1,156 @@
+/* Thread page */
+
+.thread {
+
+	
+    margin: 0;
+}
+
+.thread-title {
+
+	background-image: url('../../../image/catalog/banner/susan-yin-647448-unsplash.jpg');
+
+}
+
+.thread-title h1 {
+
+	background: rgba(0,0,0,0.2);
+
+    padding: 90px 0px;
+
+    color: #fff;
+
+    text-align: center;
+
+    text-transform: capitalize;
+
+    font-weight: bold;
+
+    margin: 0;
+
+    font-size: 2em;
+
+}
+
+.news-content{
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+}
+
+.news-layout.news-standard{
+
+	margin-bottom: 20px;
+
+}
+
+.news-layout.news-standard .image img {
+
+	width: 100%;
+
+}
+
+
+
+.news-layout.news-standard .caption h2 {
+
+	font-size: 18px;
+
+	text-align: center;
+
+}
+
+
+
+.news-layout.news-standard .caption h4 {
+
+	font-size: 13px;
+
+	line-height: 2.2;
+
+}
+
+.news-layout.news-standard .view-more {
+
+	text-align: right;
+
+	font-weight: bold;
+
+	font-style: italic;
+
+}
+
+.news-layout.news-blog h2{
+
+	font-size: 18px;
+
+}
+
+
+
+.news-layout.news-blog .image img {
+
+	width: 100%;
+
+}
+
+
+
+.news-layout.news-blog .view-more {
+
+	text-align: right;
+
+	font-weight: bold;
+
+	font-style: italic;
+
+}
+
+
+
+.news-layout.news-gallery .caption h2 {
+
+	font-size: 18px;
+
+	text-align: center;
+
+}
+
+
+
+
+
+.news-container .news-banner img {
+
+	width: 100%; 
+
+}
+
+.news-container .news-title h1 {
+
+	font-size: 28px;
+
+	font-weight: bold;
+
+}
+
+.news-container .news-description {
+
+	margin-top: 40px;
+
+}
+
+
+
+.parallax-bg {
+
+	background-attachment: fixed;
+
+    background-size: cover;
+
+    background-repeat: repeat-y;
+
+}
+.search-panel{opacity:0;height:0;z-index: 10;transition:all .4s ease;background:#fff;box-shadow:0 5px 15px -9px rgba(0,0,0,0.20);position:absolute;width:200px;padding:8px;right:0}@media (max-width: 960px){.search-panel{opacity:1;height:auto;position:relative;width:100%}}.search-panel .search-input{transition:all .4s ease;width:100%;border:3px solid #00B4CC;padding:5px;height:40px;border-radius:5px;outline:none;color:#9DBFAF}#search .search_box{position:relative;width:100%}.button-search:hover + .search-panel{opacity:1;height:auto}.search-panel:hover{opacity:1;height:auto}.searchform input,.searchform button{float:left}.searchform input{background:#fefefe;border:none;margin-right:5px;padding:10px;box-shadow:0 0 4px rgba(0,0,0,.4) inset,1px 1px 1px rgba(255,255,255,.75);-moz-box-shadow:0 0 4px rgba(0,0,0,.4) inset,1px 1px 1px rgba(255,255,255,.75);-webkit-box-shadow:0 0 4px rgba(0,0,0,.4) inset,1px 1px 1px rgba(255,255,255,.75);border-radius:9px;-moz-border-radius:9px;-webkit-border-radius:9px}.searchform input:focus{outline:none;box-shadow:0 0 4px #0d76be inset;-moz-box-shadow:0 0 4px #0d76be inset;-webkit-box-shadow:0 0 4px #0d76be inset}.searchform input::-webkit-input-placeholder{font-style:italic;line-height:15px}.searchform input:-moz-placeholder{font-style:italic;line-height:15px}.searchform button{background:#34adec;background:-moz-linear-gradient(top,rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(52,173,236,1)),color-stop(100%,rgba(38,145,220,1)));background:-webkit-linear-gradient(top,rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);background:-o-linear-gradient(top,rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);background:-ms-linear-gradient(top,rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);background:linear-gradient(to bottom,rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#34adec',endColorstr='#2691dc',GradientType=0);border:none;color:#fff;cursor:pointer;font:13px/13px HelveticaNeue,Helvetica,Arial,sans-serif;padding:10px;width:106px;box-shadow:0 0 2px #2692dd inset;-moz-box-shadow:0 0 2px #2692dd inset;-webkit-box-shadow:0 0 2px #2692dd inset;border-radius:9px;-moz-border-radius:9px;-webkit-border-radius:9px;float:none}.searchform button:hover{opacity:.9}

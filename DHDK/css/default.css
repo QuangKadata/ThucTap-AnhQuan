@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*== Font face ==*/
+h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;}
+p,a,input,button {font-family: 'Open Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6,p,a {
+    padding: 0;
+    margin: 0;
+}
+/*== Width size ==*/
+.width-auto {width: auto;}
+.width-100 {width: 100%}
+.width-75 {width: 75%}
+.width-50 {width: 50%}
+.width-25 {width: 25%}
+.height-auto {height: auto;}
+.height-100 {height: 100%}
+
+/*== section oadding margin ==*/
+section {padding: 50px 0;}
+.headerHome {
+    padding: 0;
+    margin: 0;
+}
+
+/*== text-aligns ==*/
+.text-center {text-align: center;}
+.text-left {text-align: left}
+.text-right {text-align: right}
+
+/*== float ==*/
+.float-left {float: left}
+.float-right {float: right}
+.float-none {float: none}
+
+/*== text-transformation ==*/
+.uppercase {text-transform: uppercase}
+.capitalize {text-transform: capitalize}
+.lowercase {text-transform: lowercase}
+
+/*== overflow ==*/
+.overflow-hidden {overflow: hidden}
+.overflow-auto {overflow: auto}
+.over-scroll {overflow: scroll}
+
+/*== list-style ==*/
+.ul-none {list-style: none;}
+.ul-circle {list-style: circle;}
+.ul-disc {list-style: disc;}
+
+/*== Borders ==*/
+.border-top {
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-style: solid;
+}
+.border-bottom {
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-style: solid;
+}
+.border-right {
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 1px;
+    border-left-width: 0;
+    border-right-style: solid;
+}
+.border-left {
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+.border-2 {
+    border-width: 2px;
+    border-style: solid;
+}
+
+/*== Default color ==*/
+.color {color: #27ae60}
+.white-color {color: #fff;}
+
+/*== default margin&padding ==*/
+.margin-top-100 {margin-top: 150px;}
+
+/*== no-border ==*/
+.no-border {border: none}
+
+/*== default-display ==*/
+.display-none {display: none;}
+.display-block {display: block;}
+
+/*== Default section contents for all over the page ==*/
+.sectionHeader {
+    padding-bottom: 10px;
+}
+.sectionHeader p {
+    margin-top: 15px;
+}

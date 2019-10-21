@@ -1,0 +1,175 @@
+/*responsive layout width:
+    big tablet layout(768px)
+    small tablet layout(640px)
+    mobile wide screen layout(480px)
+    mobile layout(320px)
+*/
+
+@charset "UTF-8";
+/* IE10+ VIEWPORT FIX */
+@-ms-viewport {width:device-width;}
+@viewport {width:device-width;}
+
+
+/*=============================================
+           Desktop&laptop layout 992px 
+==============================================*/
+@media only screen and (min-width: 992px){
+
+}/*---------------------------------------------------------------------end: Desktop&laptop layout 992px*/
+
+
+/*=============================================
+           big tablet layout 991px 
+==============================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .margin-top-100 {margin-top: 50px;}
+    .navbar-header a img {
+        margin: 15px 0;
+        height: 50px;
+    }
+    .navbar-inverse .navbar-nav > li > a,
+    .navbar-inverse .navbar-nav > li > a:focus {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .hederBtns a {
+        padding: 5px 10px;
+    }
+    .myPackage,.MemberProfile,.counter {
+        margin-bottom: 25px;
+    }
+    
+}/*---------------------------------------------------------------------end: big tablet layout 768px*/
+
+
+/*=============================================
+          small tablet layout 641px
+==============================================*/
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+    
+    .margin-top-100 {margin-top: 50px;}
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: none;
+        background: #e3e3e3;
+    }
+    .headerHome {text-align: center;}
+    .hederBtns a {
+        padding: 5px 10px;
+    }
+    .myPackage,.MemberProfile,.counter {
+        margin-bottom: 25px;
+    }
+    .MemberProfile {
+        width: 50%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    
+}/*----------------------------------------------------------end: small tablet layout 641px*/
+
+
+/*=============================================
+      mobile wide screen layout 481px
+==============================================*/
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    
+        .margin-top-100 {margin-top: 50px;}
+        .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+            border: none;
+            background: #e3e3e3;
+        }
+        .headerHome {text-align: center;}
+    .hederBtns a {
+        padding: 5px 10px;
+    }
+        .myPackage,.MemberProfile,.counter {
+            margin-bottom: 25px;
+        }
+        .MemberProfile {
+            width: 50%;
+            height: 300px;
+            margin: 20px auto;
+        }
+    
+}/*-------------------------------------------------------end: mobile wide screen layout 481px*/
+
+
+/*=============================================
+      mobile wide screen layout 321px
+==============================================*/
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    
+    .margin-top-100 {margin-top: 50px;}
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: none;
+        background: #ffffff;
+    }
+        .headerHome {text-align: center;}
+    .hederBtns a {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .headerCaptionImage img {
+        width: 100%;
+    }
+    #owlScreenshoot {width: 100%;}
+    .myPackage,.MemberProfile,.counter {
+        margin-bottom: 25px;
+    }
+    .MemberProfile {
+        width: 100%;
+        height: 400px;
+        margin: 20px auto;
+    }
+    .owl-hashListerer a img {
+        width: auto;
+        height: 30px;
+    }
+
+}/*-------------------------------------------------------end: mobile wide screen layout 321px*/
+
+
+/*=============================================
+      mobile layout:320px
+==============================================*/
+@media only screen and (max-width:320px) {
+    
+    .margin-top-100 {margin-top: 50px;}
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: none;
+        background: #e3e3e3;
+    }
+        .headerHome {text-align: center;}
+    .hederBtns a {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .headerCaptionImage img {
+        width: 100%;
+    }
+    #owlScreenshoot {width: 100%;}
+    .myPackage,.MemberProfile,.counter {
+        margin-bottom: 25px;
+    }
+    .MemberProfile {
+        width: 100%;
+        height: 200px;
+        margin: 20px auto;
+    }
+    .owl-hashListerer a img {
+        width: auto;
+        height: 30px;
+    }
+    .go-to-top {
+        width: 30px;
+        height: 30px;
+    }
+    .go-to-top i {
+        font-size: 20px;
+        color: #fff;
+    }
+
+}/*-------------------------------end mobile layout:320px*/

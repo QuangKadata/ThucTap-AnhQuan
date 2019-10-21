@@ -1,0 +1,262 @@
+body{
+    border: 2px solid black;
+    box-shadow: 5px 10px 39px 20px rgba(0,0,0,0.75);
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(50, 115, 220, 0.3);
+}
+.body{
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px inset;
+}
+
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+    clear: both;
+}
+#head{
+    width: 100%;
+    height: 230px;
+    margin-bottom:5px;
+}
+#head-breadcumb{
+  width: 1000px;
+  height: 50px;
+  text-align: left;
+  background-color: rgb(153, 146, 146);
+}
+#head-link{
+    height: 2px;
+    line-height: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(167, 166, 166);
+    clear: both;
+}
+#content{
+    width: 800px;
+    height: 240px;
+    float:left;
+}
+#right{
+    width: 350px;
+    height: auto;
+    float:right;
+
+}
+#footer{
+    color: black;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: rgb(167, 166, 166);
+}
+a > .breadcrumb-item{
+  color: rgb(255, 255, 255);
+}
+ul {
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+    text-decoration: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  body {
+      margin:0;
+      font-family:Arial
+    }
+  
+  
+  .custom-active  {
+    background-color: rgb(238, 13, 13);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .topnav-hover{
+    background-color: rgb(238, 13, 13);
+  }
+.list-group{
+    list-style-type: none; 
+    text-align: center;
+    text-decoration: none;
+}
+.btn-search input[type=text] {
+    background-color: #ff3c00;
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+  }
+  .btn-search input[type=text]:focus{
+      width: 150%;
+  }
+.form-group-search {
+  display: block;
+  text-align: left;
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-position: 10px 10px; 
+    background-color: rgb(252, 214, 0);
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url('./image/icons/search.png');
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .form-group-search:focus {
+    text-align: lfet;
+    width: 180%;
+    border: 1px solid black;
+  }
+.th {
+  border: 1px solid rgb(255, 251, 251);
+  text-align: center;
+}
+.boderexam3{
+    width: 100%;
+  margin-top: 5px;
+  color: rgb(243, 233, 233);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+  .box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 4px;
+    background: #c9c7c7;
+    border: 1px solid black;
+  }
+  .box a{
+    width: 15px;
+    height: 15px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  #red{
+    background: #e74c3c;
+  }
+  #blue{
+    background: #3498db;
+  }
+  #green{
+    background: #2ecc71;
+  }
+  #gray{
+    background: #34495e;
+  }
+  #purple{
+    background: purple;
+  }
+  #orange{
+    background: #e67e22;
+  }
+.panel-heading{
+  background-color: red;
+}
+.panel-body {
+
+border-top : 1px solid black;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.topnav {
+  list-style-type: none; 
+  background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(7, 7, 7);
+color: rgb(243, 243, 243);
+text-decoration: none;
+border: 1px solid white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+list-group-item:hover {
+  background-color: red;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}

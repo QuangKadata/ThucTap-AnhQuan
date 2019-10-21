@@ -1,0 +1,238 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(50, 115, 220, 0.3);
+}
+.body{
+  padding: 10px;
+  -webkit-box-shadow: 5px 10px inset;
+          box-shadow: 5px 10px inset;
+}
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#head{
+  width: 100%;
+  height: 50%;
+}
+#main{
+  width: 100%;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#footer{
+    width: auto;
+    height: 50px;
+    clear: both;
+}
+a > .breadcrumb-item{
+  color: rgb(255, 255, 255);
+}
+ul {
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+    text-decoration: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  body {
+      margin:0;
+      font-family:Arial
+    }
+  
+  
+  .custom-active  {
+    background-color: rgb(238, 13, 13);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .topnav-hover{
+    background-color: rgb(238, 13, 13);
+  }
+.list-group{
+    list-style-type: none; 
+    text-align: center;
+    text-decoration: none;
+}
+
+input[type=text] {
+  display: block;
+  text-align: left;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-position: 10px 10px; 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url('./image/icons/search.png');
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    text-align: lfet;
+    width: 300%;
+    border: 1px solid black;
+  }
+.th {
+  border: 1px solid rgb(255, 251, 251);
+  text-align: center;
+}
+.boderexam3{
+  margin-top: 5px;
+  color: rgb(243, 233, 233);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+  .box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 4px;
+    background: #c9c7c7;
+    border: 1px solid black;
+  }
+  .box a{
+    width: 15px;
+    height: 15px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  #red{
+    background: #e74c3c;
+  }
+  #blue{
+    background: #3498db;
+  }
+  #green{
+    background: #2ecc71;
+  }
+  #gray{
+    background: #34495e;
+  }
+  #purple{
+    background: purple;
+  }
+  #orange{
+    background: #e67e22;
+  }
+
+.navbar {
+  background-color: #333;
+}
+
+.topnav {
+  list-style-type: none; 
+  background-color: red;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(7, 7, 7);
+color: rgb(243, 243, 243);
+text-decoration: none;
+border: 1px solid white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+list-group-item:hover {
+  background-color: red;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+.tilteh2{
+  background-color: red;
+  color: white;
+}
+.table
+{
+	display:table;
+	border-spacing:2px;
+}
+.thead
+{
+	display:table-header-group;
+	color:white;
+	font-weight:bold;
+	background-color:grey;
+}
+.tr
+{
+	display:table-row;
+}
+.td
+{
+	display:table-cell;
+	border:1px solid black;
+	padding:1px;
+}
+

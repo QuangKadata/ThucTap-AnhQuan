@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+ * {
+    margin: 0;
+    padding: 0;
+    transition: 0.8s ease;
+}
+body{
+    background: #d3d3d3;
+    text-align: left;
+    font-family: tahoma;
+    color: black;
+}
+.collapse navbar-collapse {
+    color: white;
+}
+.container a img{
+    width: 300px;
+    height: 150%;
+}
+.themes{
+    position: fixed;
+    left: 5;
+    bottom: 50px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.themes p.themes-btn{
+    color: #333;
+    background: white;
+    padding: 23px 15px;
+    box-shadow: 3px 3px 0 -2px black;
+    border-radius: 0 0 5px 0;
+    font-weight: bold;
+}
+.themes p.themes-btn:hover{
+    box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.56);
+}
+.themes .colors{
+    float: left;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 0 0 10px 0;
+    margin-left: -300x;
+}
+.themes .colors.active{
+    margin-left: 0;
+}
+.themes .colors h3 {
+    font-size: 15px;
+    font-family: tahoma;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.themes .themes-btn{
+    float: right;
+    cursor: pointer;
+}
+.themes ul li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 7.8px;
+    margin-right: 2px;
+}
+.themes ul li:hover{
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.themes ul.theme-colors li:nth-child(1),
+.themes ul.logo-colors li:nth-child(1){
+    background: rgb(255, 217, 0);
+    color: rgb(235, 99, 46);
+
+}
+.themes ul.theme-colors li:nth-child(2),
+.themes ul.logo-colors li:nth-child(2){
+    background: rgb(255, 0, 255);
+    color: rgb(36, 234, 241);
+
+}
+.themes ul.theme-colors li:nth-child(3),
+.themes ul.logo-colors li:nth-child(3){
+    background: rgb(0, 255, 0);
+    color: rgb(0, 17, 255);
+
+}
+.themes-btn{
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    padding: 15px 35px !important;
+}
+h1{
+    margin-top: 215px;
+    font-size: 70px;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-display: tahoma;
+}
+h2{
+    margin-top: 50px;
+}

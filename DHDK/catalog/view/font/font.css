@@ -1,0 +1,330 @@
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-ExtraBold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-ExtraLight.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-Light.ttf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-Medium.ttf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-SemiBold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArimaMadurai;
+	src: url(ArimaMadurai-Thin.ttf);
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: CormorantUpright;
+	src: url(CormorantUpright-Bold.otf);
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: CormorantUpright;
+	src: url(CormorantUpright-Light.otf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: CormorantUpright;
+	src: url(CormorantUpright-Medium.otf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: CormorantUpright;
+	src: url(CormorantUpright-Regular.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: CormorantUpright;
+	src: url(CormorantUpright-Semi.otf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-BoldItalic.ttf);
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-ExtraBold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-ExtraBoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Light.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-LightItalic.ttf);
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Semibold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-SemiboldItalic.ttf);
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Black.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-BlackItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Light.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-LightItalic.ttf);
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Medium.ttf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-MediumItalic.ttf);
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-ThinItalic.ttf);
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	font-family: RobotoSlab;
+	src: url(RobotoSlab-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: RobotoSlab;
+	src: url(RobotoSlab-Light.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: RobotoSlab;
+	src: url(RobotoSlab-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: RobotoSlab;
+	src: url(RobotoSlab-Thin.ttf);
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-Black.otf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-BlackIt.otf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-Bold.otf);
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-BoldIt.otf);
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-ExtraLight.otf);
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-ExtraLightIt.otf);
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-It.otf);
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-Light.otf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-LightIt.otf);
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-Regular.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-Semibold.otf);
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: SourceSansPro;
+	src: url(SourceSansPro-SemiboldIt.otf);
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: SpaceMono;
+	src: url(SpaceMono-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: SpaceMono;
+	src: url(SpaceMono-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: SpaceMono-Italic;
+	src: url(SpaceMono-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: SpaceMono-Regular;
+	src: url(SpaceMono-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+  }

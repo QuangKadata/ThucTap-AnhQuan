@@ -1,0 +1,523 @@
+/*===============================================================================================
+COLOR RANG To get the menu code on HTML file just find ***" colorRang "***
+=================================================================================================*/
+.colorRang {
+    width: auto;
+    height: auto;
+    position: fixed;
+    transition: 0.5s ease;
+    bottom: 10px;
+    left: 0;
+    z-index: 1000;
+}
+.colorPicker {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.colorPicker i {
+    
+    font-size: 60px;
+    margin-top: 10px;
+}
+.colors {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 15px 10px;
+    margin-top: 10px;
+    display: none;
+}
+.colors span {
+    transition: 0.5s ease;
+    border: 1px solid black;
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+.deepGreenCB {background: #27ae60;transition: 1s ease;}
+.blueCB {background: #2980b9;transition: 1s ease;}
+.lightRedCB {background: #c0392b;transition: 1s ease;}
+.orangCB {background: #f39c12;transition: 1s ease;}
+
+/*===============================================================================================
+PRELOADER SECTION To get the menu code on HTML file just find ***" PRELOADER SECTION "***
+=================================================================================================*/
+.preLoader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.preLoader i {
+    margin-top: 25%;
+    margin-bottom: 40%;
+    margin-left: 45%;
+    margin-right: 40%;
+    font-size: 100px;
+}
+
+/*===============================================================================================
+MENUBAR SECTION To get the menu code on HTML file just find ***" MENUBAR SECTION "***
+=================================================================================================*/
+/*== Sticky nav classes ==*/
+.when-addclass-inverse {
+    height: 50px !important;
+    transition: 0.30s !important;
+}
+.when-addclass-logo {
+    height: 50px !important;
+    margin: 0 !important;
+    transition: 0.30s !important;
+}
+.when-addclass-menubar {
+    margin: 0 !important;
+    transition: 0.30s !important;
+}
+.when-addclass-mobileMenu {
+    margin: 0 20px 0 0 !important;
+}
+/*=================================
+ Bootstrap Nav bar
+===================================*/
+body {
+    transition: 0.5s ease;
+      position: relative; 
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+.navbar-toggle i {
+    font-size: 30px;
+}
+.navbar-inverse {
+    height: 100px;
+    border: none;
+}
+.navbar-header {
+    height: 70px;
+}
+.navbar-header a {
+    margin: 0;
+    padding: 0;
+}
+.navbar-header a img {
+    margin: 15px 0;
+    height: 70px;
+}
+.menuBar {
+    float: right;
+    margin: 25px 0;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:focus {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.40s;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    transition: 0.40s;
+}
+
+
+/*===============================================================================================
+HOMEPAGE SECTION To get the homePage code on HTML file just find ***" HOMEPAGE SECTION "***
+=================================================================================================*/
+.headerHome {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+/*== Here it is used for making the overlay on the full header section ==*/
+.headerHome:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*== Here are two buttons . "Learn more" and "Download this app" ==*/
+.hederBtns {
+    margin-top: 50px;
+}
+.hederBtns a {
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-width: 2px;
+    border-style: solid;
+    transition: 0.40s;
+}
+.hederBtns a i {
+    margin-right: 15px;
+}
+.hederBtns a:hover {
+    text-decoration: none;
+    transition: 0.40s;
+}
+
+
+/*===============================================================================================
+SERVICE SECTION To get the service section code on HTML file just find ***" SERVICE SECTION "***
+=================================================================================================*/
+.myService {
+    padding: 25px 0;
+    margin: 5px 0;
+    text-align: center;
+    opacity: 0;
+}
+
+
+/*===============================================================================================
+STATUS SECTION To get the status section code on HTML file just find ***" STATUS SECTION "***
+=================================================================================================*/
+.statusSec {
+    position: relative;
+}
+/*== Here it is used for making the overlay on the full status section ==*/
+.statusSec:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.counter i {
+    font-size: 50px;
+}
+
+
+/*=============================================================================================================
+SCREENSHOOT SECTION To get the screenshoot section code on HTML file just find ***" SCREENSHOOT SECTION "***
+===============================================================================================================*/
+/*== Here are the screenshot's sliders CSS ==*/
+#owlScreenshoot {
+    width: 120%;
+    margin: 0 auto;
+}
+.screenShootImg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*===============================================================================================
+PACKAGE SECTION To get the package section code on HTML file just find ***" PACKAGE SECTION "***
+=================================================================================================*/
+.myPackage {
+    opacity: 0;
+    opacity: 0;
+    position: relative;
+}
+.myPackage ul li {
+    height: 60px;
+    padding: 15px 0;
+}
+/*== package prices here ==*/
+.myPackage ul .packagePrice {
+    height: 120px;
+    padding: 40px 0;
+}
+/*== Get Now button ==*/
+.myPackage ul .packageSignUp {
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.packageSignUp a {
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 15px;
+    transition: 0.40s;
+}
+.packageSignUp a:hover {
+    text-decoration: none;
+    transition: 0.40s;
+}
+/*== here is the package tags like (it's new) ==*/
+.packageTag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 40px;
+    transform: rotate(-45deg);
+    margin: 13px 0px 0px -65px;
+}
+.packageTag h5 {
+    margin: 11px 0 0 0;
+}
+
+
+/*========================================================================================================================
+MEMBERS PROFILE SECTION To get the member porfile section code on HTML file just find ***" MEMBERS PROFILE SECTION "***
+==========================================================================================================================*/
+.MemberProfile {
+    height: 200px;
+    position: relative;
+}
+/*== This is the front of the member profile ==*/
+.MemberProfile > .memberImg {
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(0deg);
+    transition: transform 0.5s linear 0s;
+}
+/*== This is the back of the member profile ==*/
+.MemberProfile > .memberDetails {
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(180deg);
+    transition: transform 0.5s linear 0s;
+    padding: 50px 0;
+}
+.MemberProfile:hover > .memberImg {
+    transform: perspective(600px) rotateY(-180deg);
+}
+.MemberProfile:hover > .memberDetails {
+    transform: perspective(600px) rotateY(0deg);
+}
+/*== This is the front of the member profile ==*/
+.memberDetails h3 {margin-bottom: 20px;}
+.memberDetails h5 {margin-bottom: 20px;}
+.membersSocialMedia a i {
+    font-size: 30px;
+}
+
+
+/*====================================================================================================================
+TESTIMONIAL SECTION To get the testimonial section code on HTML file just find ***" TESTIMONIAL SECTION "***
+======================================================================================================================*/
+.testimonialSec {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+/*== Here it is used for making the overlay on the full header section ==*/
+.testimonialSec:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*== Here are the headers and paragrapg of the testimonial ==*/
+.testimonialPeople h1,
+.testimonialPeople p {
+    margin-top: 20px;
+}
+/*== Here are the testimonial writter social media link ==*/
+.testimonialSocialMedia {
+    margin-top: 20px;
+}
+.testimonialSocialMedia ul li {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.testimonialSocialMedia ul li a i {
+    font-size: 30px;
+}
+
+/*== Here is the hash listener CCS . Here are the images of the testimonial image ==*/
+.owl-hashListerer {
+    margin-top: 50px;
+}
+.owl-hashListerer a {
+    margin: 0 02px;
+    overflow: hidden;
+}
+.owl-hashListerer a img {
+    width: auto;
+    height: 50px;
+}
+/*== It is the active hash listener ==*/
+.owl-hash-active img {
+    overflow: hidden;
+    border-width: 5px;
+    border-style: solid;
+    position: relative;
+    z-index: 1;
+}
+/*== By this I hide the display of the pagination of ths slider ==*/
+#owl-testimonial .owl-dots {display: none;}
+
+
+/*========================================================================================================================
+SUBSCRIPTION SECTION To get the subscription section code on HTML file just find ***" SUBSCRIPTION SECTION "***
+==========================================================================================================================*/
+.subscribeForm input {
+    height: 50px;
+    padding: 0 15px;
+}
+.subscribeForm button {
+    height: 50px;
+}
+
+
+/*===================================================================================================================
+SOCIALMEDIA SECTION To get the socialmedia section code on HTML file just find ***" SOCIALMEDIA SECTION "***
+=====================================================================================================================*/
+.socialMediaSec ul li {
+    width: 50px;
+    height: 52px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: dashed;
+    overflow: hidden;
+}
+.socialMediaSec ul li a {
+    padding: 7px 13px;
+    font-size: 30px;
+}
+
+
+/*=========================================================================================================================
+CONTACT FOMR SECTION To get the contact section code on HTML file just find ***" CONTACT FORM SECTION "***
+===========================================================================================================================*/
+
+/*== Here is the contact field like (full name , email , website URL link , Message) ==*/
+.contactField,
+.messageField {
+    height: 50px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+.messageField {
+    height: 100px;
+    padding: 15px;
+}
+.contactForm button {
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    transition: 0.30s;
+}
+/*== Here is the SEND button ==*/
+.contactForm button i {
+    margin-right: 10px;
+}
+.contactForm button:hover {
+    transition: 0.30s;
+}
+
+
+/*=========================================================================================================
+COPYRIGHT SECTION To get the copyright section code on HTML file just find ***" COPYRIGHT SECTION "***
+===========================================================================================================*/
+.copyright p a {
+    font-weight: 600;
+}
+.copyright p a:hover {
+    text-decoration: none;
+}
+
+
+/*=========================================================================================================
+GO TO TOP SECTION To get the copyright section code on HTML file just find ***" GO TO TOP SECTION "***
+===========================================================================================================*/
+.go-to-top {
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: rgba(46, 204, 113, 1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2000;
+    display: none;
+}
+.go-to-top i {
+    font-size: 40px;
+    color: #fff;
+}
+
+
+
+
+@-webkit-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes slide {
+    0%   { transform: translate(0px,100px); }
+    100% { transform: translate(0px,0px); }
+  }
+
+
+
+  @-webkit-keyframes RightToLeft {
+    0%   { transform: translate(-50%,50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes RightToLeft {
+    0%   { transform: translate(-50%,50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes RightToLeft {
+    0%   { transform: translate(-50%,50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes RightToLeft {
+    0%   { transform: translate(-50%,50%); }
+    100% { transform: translate(0px,0px); }
+  }
+
+
+  @-webkit-keyframes LeftToRight {
+    0%   { transform: translate(50%,-50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-moz-keyframes LeftToRight {
+    0%   { transform: translate(50%,-50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @-o-keyframes LeftToRight {
+    0%   { transform: translate(50%,-50%); }
+    100% { transform: translate(0px,0px); }
+  }
+  @keyframes LeftToRight {
+    0%   { transform: translate(50%,-50%); }
+    100% { transform: translate(0px,0px); }
+  }
+
+
+  .rotate:hover{
+    box-shadow: inset 0 0 0 25px #53a7ea;
+  }
+
+  
